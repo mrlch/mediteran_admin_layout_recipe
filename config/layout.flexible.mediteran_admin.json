@@ -1,0 +1,50 @@
+{
+    "_config_name": "layout.flexible.mediteran_admin",
+    "name": "mediteran_admin",
+    "title": "Mediteran Admin",
+    "description": "",
+    "rows": {
+        "ba2011e3-6dfc-49b6-a405-5fa750f4fdd9": {
+            "contains": "region_12",
+            "element": "header",
+            "classes": "",
+            "container": "container_fluid",
+            "region_names": {
+                "region_0": {
+                    "label": "Kopfzeile",
+                    "name": "header",
+                    "region_class_enable": 0,
+                    "classes": ""
+                }
+            }
+        },
+        "d2974422-e8e4-4e2a-8002-2a4764ce6ac2": {
+            "contains": "region_12",
+            "element": "div",
+            "classes": "",
+            "container": "container_fluid",
+            "region_names": {
+                "region_0": {
+                    "label": "Inhalt",
+                    "name": "content",
+                    "region_class_enable": 0,
+                    "classes": ""
+                }
+            }
+        },
+        "85cf038f-ab63-4a5b-bf00-00527ef44d61": {
+            "contains": "region_12",
+            "element": "footer",
+            "classes": "",
+            "container": "container_fluid",
+            "region_names": {
+                "region_0": {
+                    "label": "Fußzeile",
+                    "name": "footer",
+                    "region_class_enable": 0,
+                    "classes": ""
+                }
+            }
+        }
+    }
+}

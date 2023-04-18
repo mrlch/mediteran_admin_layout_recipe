@@ -1,0 +1,189 @@
+{
+    "_config_name": "layout.layout.admin_default",
+    "path": "",
+    "name": "admin_default",
+    "title": "Default Administrative Layout",
+    "description": null,
+    "renderer_name": "standard",
+    "module": "layout",
+    "weight": 1,
+    "storage": 2,
+    "layout_template": "mediteran_admin",
+    "disabled": false,
+    "settings": {
+        "title": "",
+        "title_display": "default",
+        "title_block": null
+    },
+    "positions": {
+        "ba2011e3-6dfc-49b6-a405-5fa750f4fdd9--0": [
+            "3a4fd64f-5cc8-4d45-8119-253e70619d18",
+            "07a3c8fb-0243-48d6-8b02-2a9262b8ecfb"
+        ],
+        "d2974422-e8e4-4e2a-8002-2a4764ce6ac2--0": [
+            "55f542fe-0763-453b-ba3e-62677ea559e5",
+            "eec18fa2-2ece-4130-a34d-77e1e9156705",
+            "default"
+        ],
+        "85cf038f-ab63-4a5b-bf00-00527ef44d61--0": [],
+        "title": []
+    },
+    "contexts": [],
+    "relationships": [],
+    "content": {
+        "3a4fd64f-5cc8-4d45-8119-253e70619d18": {
+            "plugin": "system:page_components:title",
+            "data": {
+                "status": 1,
+                "module": "system",
+                "delta": "page_components",
+                "settings": {
+                    "title_display": "none",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "title_tag": "h1",
+                    "title_classes": "page-title",
+                    "tab_type": "both",
+                    "admin_label": "",
+                    "admin_description": ""
+                },
+                "uuid": "3a4fd64f-5cc8-4d45-8119-253e70619d18",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "07a3c8fb-0243-48d6-8b02-2a9262b8ecfb": {
+            "plugin": "system:page_components:tabs",
+            "data": {
+                "status": 1,
+                "module": "system",
+                "delta": "page_components",
+                "settings": {
+                    "title_display": "none",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "title_tag": "h1",
+                    "title_classes": "page-title",
+                    "tab_type": "both",
+                    "admin_label": "",
+                    "admin_description": ""
+                },
+                "uuid": "07a3c8fb-0243-48d6-8b02-2a9262b8ecfb",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "55f542fe-0763-453b-ba3e-62677ea559e5": {
+            "plugin": "system:breadcrumb",
+            "data": {
+                "status": 1,
+                "module": "system",
+                "delta": "breadcrumb",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "55f542fe-0763-453b-ba3e-62677ea559e5",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "eec18fa2-2ece-4130-a34d-77e1e9156705": {
+            "plugin": "system:page_components:action_links",
+            "data": {
+                "status": 1,
+                "module": "system",
+                "delta": "page_components",
+                "settings": {
+                    "title_display": "none",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "title_tag": "h1",
+                    "title_classes": "page-title",
+                    "tab_type": "both",
+                    "admin_label": "",
+                    "admin_description": ""
+                },
+                "uuid": "eec18fa2-2ece-4130-a34d-77e1e9156705",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "default": {
+            "plugin": "system:main",
+            "data": {
+                "status": 1,
+                "module": "system",
+                "delta": "main",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "default",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "navbar_shortcut_sets": [
+        "navbar-shortcut-set-1"
+    ],
+    "navbar-shortcut-set-1": {
+        "set_name": "navbar-shortcut-set-1",
+        "title": "Default",
+        "links": [
+            {
+                "link_path": "node/add",
+                "link_title": "Add content",
+                "weight": -20
+            },
+            {
+                "link_path": "admin/content",
+                "link_title": "Find content",
+                "weight": -19
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+type = module
+name = Mediteran Administrativ Layout Recipe
+description = Changing the Administrative Layout for the original Mediteran Experience
+package = Recipes
+backdrop = 1.x
+
+dependencies[] = system (>=1.20.0)
+
+;stylesheets[all][] = css/medtieran_navbar_recipe.css
